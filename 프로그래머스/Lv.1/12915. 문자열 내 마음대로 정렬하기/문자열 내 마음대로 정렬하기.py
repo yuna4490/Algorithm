@@ -9,5 +9,8 @@ def solution(strings, n):
     
     for d in sorted_dic:
         answer.append(d[0])
+
+
+    # sorted(strings, key=lambda x: x[n]) 이렇게 정렬 가능... 뻘짓 ㄷㄷ
         
     return answer
