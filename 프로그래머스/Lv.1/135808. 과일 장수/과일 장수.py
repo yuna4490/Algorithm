@@ -1,8 +1,7 @@
 def solution(k, m, score):
     answer = 0
-    
-    score = sorted(score, reverse = True)
-    
+
+    score = sorted(score, reverse = True)    
     length = len(score) // m
     
     i = 0
